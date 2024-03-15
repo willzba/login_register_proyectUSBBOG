@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>    
+    <link rel="stylesheet" href="css/registro.css" />
+    <title>Registro de usuarios</title>
+  </head>
+  <body>
+    <!--NVBAR-->
+    <header class="header">
+      <nav class="navbar">
+        <a href="#">INÍCIO</a>
+        <a href="#">SOBRE NOSOSTROS</a>
+        <a href="#">¡ ENVIANOS UN MENSAJE !</a>
+      </nav>
+      <form action="" class="search-bar">
+        <input type="text" placeholder="Buscar..." />
+        <button>
+            <i class="ri-search-line"></i>      
+        </form>
+    </header>
+
+    <!--LOGIN-->
+    <div class="background">
+        <img src="/imagenes/Finding.jpg" alt="" class="fondo-registro">
+    </div>
+
+    <div class="container">
+        <div class="item">
+            <h2 class="logo"><img src="imagenes/SSTR-removebg-preview.png" alt="logo vstr" srcset="">VSTR</h2>
+            <div class="text-item">
+                <h2>Bienvenido!<br><span>Video Style Stream</span></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, mollitia distinctio consequatur consectetur blanditiis</p>
+                <div class="social-icon">
+                    <a href="#"><i class="ri-twitch-fill"></i></a>
+                    <a href="#"><i class="ri-youtube-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="login-section">
+            <div class="form-box login">
+                <form action="">
+                    <h2>Iniciar Sesión.</h2>
+                    <div class="input-box">
+                        <span class="icon"><i class="ri-mail-line"></i></span>
+                        <input type="Correo" required>
+                        <label for="">Correo Electronico</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="ri-lock-2-line"></i></span>
+                        <input type="Contraseña" required>
+                        <label for="">Contraseña</label>
+                    </div>
+                    <div class="remember-password">
+                        <label for="">
+                            <input type="checkbox">Recordar Contraseña.
+                        </label>
+                        <a href="#">Recuperar Contraseña.</a>
+                    </div>
+                    <button class="btn">INGRESAR</button>
+                    <div class="create-account">
+                        <p>Quieres crear un nuevo usuario? <a href="#" class="register-link">Ir a Registrame</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <form action="">
+                    <h2>Crear Nuevo Usuario.</h2>
+                    <div class="input-box">
+                        <span class="icon"><i class="ri-user-6-line"></i></span>
+                        <input type="nombre"  required>
+                        <label for="">Nombre</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="ri-smartphone-line"></i></span>
+                        <input type="telefono" required>
+                        <label for="">Teléfono</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="ri-mail-line"></i></span>
+                        <input type="email"  required>
+                        <label for="">Correo electrónico</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="ri-lock-password-line"></i></span>
+                        <input type="contraseña" required>
+                        <label for="">Contraseña</label>
+                    </div>
+
+                    <div class="remember-password">
+                        <label for="">
+                            <input type="checkbox">Estoy de acuerdo con los terminos y condiciones.
+                        </label>
+                       <!-- <a href="3">Recuperar Contraseña.</a>-->
+                    </div>
+                    <button class="btn">ENVIAR</button>
+                    <div class="create-account">
+                        <p>Ya tienes un usuario? <a href="#" class="login-link">Iniciar sesión</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="registro.js"></script>
+  </body>
+</html>
